@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+ margin:0px;
+ padding:0px;
+ background-image:url("img/back.jpg");
+ background-size:cover;
+ background-repeat:no-repeat;
+}
+a{
+ text-decoration:none;
+}
+ul{
+ list-style:none;
+}
+.naviagtion-container{
+ 
+ background-color: rgba(226,226,226,0.85);
+ height:60px;
+ font-family:calibri;
+ display:flex;
+ justify-content:space-between;
+ align-items: center;
+ padding:0px 4%;
+ box-shadow:2px 2px 12px rgba(0,0,0,0.1); 
+}
+.logo{
+ color:#5f5f5f;
+ font-family:calibri;
+ font-weight:700;
+ font-size:34px;
+ 
+}
+.menu ul{
+ display: flex;
+}
+.menu ul li a{
+ margin:20px;
+ font-weight:bold;
+ color:#5f5f5f;
+ font-size:17px;
+ 
+}
+.menu a:hover {
+ color:#151515;
+ font-weight:bold;
+ transition:all ease 0.5s;
+}
+.cart{
+ display:flex;
+ align-items: center;
+ 
+}
+.cart img{
+ height:22px;
+ margin:10px;
+}
+.cart a{
+ font-weight:600;
+ color:#262525;
+ font-size:17px;
+}
+.color-container{
+ border-radius:10px;
+ overflow:hidden;
+ margin:20px;
+ width:14px;
+ height:170px;
+ box-shadow:-2px 2px 12px rgba(0,0,0,0.1);
+}
+.orange,.purple,.green{
+ 
+ height:57px;
+}
+.orange{
+ 
+ background-color:#33fb97;
+}
+.purple{
+ 
+ background-color:#8b34ef;
+}
+.green{
+ 
+ background-color:#c0ec2f;
+}
+.text-container{
+ display:flex;
+ align-items: center;
+ margin:7% 0px 4% 12%;
+ 
+}
+.text{
+ margin:10px;
+ width:350px;
+}
+.text h1,.text h2{
+ line-height:10px;
+ font-family:calibri; 
+}
+.text h1{
+ font-size:110px;
+ font-weight:300;
+ letter-spacing:5px;
+ color:#4d4b4b;
+}
+.text h2{
+ font-size:55px;
+ font-weight:300;
+ color:#4d4b4b;
+ display:flex;
+ justify-content: flex-end;
+ 
+}
+ 
+.box-1,.box-2,.box-3{
+ width:230px;
+ height:370px;
+ background-size:cover;
+ margin:0px 50px;
+ border-radius:10px;
+ position:relative; 
+}
+.box-1{
+ background-image: url("img/box1.jpg");
+}
+.box-2{
+ background-image: url("img/box2.jpg");
+}
+.box-3{
+ background-image: url("img/box3.jpg");
+}
+.product-container{
+ display: flex;
+ justify-content: center; 
+ margin:0px 0px 20px 0px;
+ flex-wrap:wrap;
+}
+.price{
+ font-family:arial;
+ position: absolute;
+ font-size:20px;
+ color: #ffffff;
+ font-style:oblique;
+ font-weight:400;
+ text-shadow:2px 2px 5px rgba(0,0,0,0.1);
+ right: 7%;
+ top:16%;
+ transform:translate(-6%,-16%);
+ 
+}
+.icon {
+ width:40px;
+}
+.type-heading{
+ font-family:calibri;
+ font-weight:bold;
+ color:#191919;
+ padding:0px 0px 15px 0px;
+}
+.detail{
+ position:absolute;
+ left:30px;
+ bottom:20px;
+}
+.type-detail p{
+ font-family:arial;
+ font-weight:400;
+ color:#3A3A3A;
+ letter-spacing:1px;
+ line-height:5px;
+ font-size:18px;
+}
+.product-img img{
+ 
+ width:230px;
+transform:rotate(52deg);
+ 
+}
+.product-img{
+ display: flex;
+ justify-content: center;
+ position: relative;
+ align-items: center;
+ height:70%;
+}
+.cart-btn{
+ position: absolute;
+ right:0px;
+ bottom:0px;
+ width: 50px;
+ height: 40px;
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ background-color:#FFFFFF;
+ box-shadow:2px 2px 12px rgba(0,0,0,0.1);
+ border-bottom-right-radius:10px;
+}
+.cart-btn a{
+ color:#414040;
+ font-size:24px;
+ font-family: calibri;
+ font-weight:bold;
+}
+.cart-btn a:hover{
+ color:#1D1D1D;
+ transition:all ease 0.2s;
+}
+ 
+.shoes-brand{
+ position: fixed;
+ right:2%;
+ bottom:10px;
+ width:90px;
+}
+.social{
+ display:flex;
+ flex-direction: column;
+ left:0px;
+ top: 50%;
+ transform: translateY(-50%);
+ position: fixed;
+}
+.social img{
+ height:45px;
+ 
+}
+.social a{
+line-height:0px;}
+.social a:hover img{
+ transform: scale(1.1);
+}
