@@ -8,9 +8,9 @@ my professional journey, key skills, and projects I've been involved in. Whether
 my work, I hope you find this information helpful.
 <br>
 <h3>Task 1</h3>
-<h2>Landing Page Project<h2>
-Welcome to the Landing Page Project! This document provides an overview of the project, 
-its features, setup instructions, usage, and guidelines for contributing.
+<h2>Landing Page<h2>
+Welcome to the landing page project! this document provides an overview of the project,
+its features,setup instructions,usage and guidelines for contributing.
 <br>
 <h3>Task 2</h3>
 <h2>Self Portfolio </h2>
